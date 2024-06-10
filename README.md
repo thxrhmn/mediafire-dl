@@ -1,4 +1,5 @@
 # MediaFire-dl
+![Alt text](preview.png "This is preview image")
 
 MediaFire-dl is a command-line tool that allows you to download files from MediaFire URLs with a progress bar.
 
