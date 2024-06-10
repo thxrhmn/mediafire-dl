@@ -24,7 +24,6 @@ MediaFire-dl is a command-line tool that allows you to download files from Media
 5. Build the project:
     ```bash
     go build -o mediafire-dl .
-
     ```
 
 6. Optionally, install the binary globally on your system:
@@ -35,17 +34,16 @@ MediaFire-dl is a command-line tool that allows you to download files from Media
 
 7. Run the program 
     ```bash
-    ./mediafire-downloader [flags] [URLs]
-
+    ./mediafire-dl [flags] [URLs]
     ```
 
 ## Usage
 To download from multiple URLs provided as arguments:
 ```bash
-./mediafire-downloader "url1" "url2"
+./mediafire-dl "url1" "url2"
 ```
 
 To download from URLs listed in a file:
 ```bash
-./mediafire-downloader -f urls.txt
+./mediafire-dl -f urls.txt
 ```
